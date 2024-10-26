@@ -1,0 +1,146 @@
+.bgimage{
+	height:50vh;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background:center;
+}
+.avatar{
+	width:180px;
+	height:180px;
+	border-style:solid;
+	background-color:rgba(255,255,255,0.5);
+	border-radius:50%;
+	border-color:white;
+	border-width:5px;	
+	   
+	   
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.avatar img{
+	margin:0;
+	width:180px;
+	height:180px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.nickname{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin-top:110px;
+	font-size:40px;
+}
+.nickname span{
+	color:white;
+}
+nav{
+	display:flex;
+	justify-content:center;
+	align-items:center;	
+	height:70px;
+	background-color:rgba(84,71,53,0.5);
+}
+.container-fluid nav ul{
+	width:100%;
+	list-style-type:none;
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+    margin:0px 0px 0px 0px;	
+    padding:0px 0px 0px 0px;
+	
+}
+
+.container-fluid nav ul li a:hover{
+	background-color:aquamarine;
+}
+
+.container-fluid nav ul li a{
+	text-decoration:none;
+	color:black;
+	font-size:30px;
+	border-style:solid;
+	border-radius:10px;
+	background-color:yellow;
+}
+.animal-info{
+	margin:20px 0px 0px 0px;
+	padding:0px;
+    background-color:rgba(234,212,183,0.1);
+    border-style:solid;
+	border-radius:30px;
+	
+}
+.col-md-6{
+	display:flex;
+	padding:20px 20px 20px 20px;
+	align-items:center;
+	border-radius:10px;
+}
+.Img{
+	width:100px;
+	height:100px;
+	margin-left:20px;
+	border-radius:50%
+}
+.Img img{
+	position:relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin:0px 0px 0px 0px;
+    width:100px;
+	height:100px;
+
+}
+.info{
+	flex:1;
+}
+.info h3{
+    display:flex;
+    justify-content:center;
+   	margin-left:30px;
+   
+}
+.info small{
+	color:grey;
+}
+.information{
+	display:flex;
+	margin-left:30px;
+    justify-content:center;
+	
+}
+.right{
+	display:flex;
+	justify-content:center;
+}
+.tag{
+	display:flex;
+	justify-content:center;
+}
+.btn{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-top:20px;
+}
+.btn button{
+	font-size:40px;
+	background-color:yellow;
+	border-radius:10px;
+}
+button:hover{
+	background-color:aquamarine;
+}
+h2
+{
+	margin-top:20px;
+	color:grey;
+}

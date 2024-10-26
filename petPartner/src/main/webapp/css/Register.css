@@ -1,0 +1,32 @@
+@charset "UTF-8";
+.login{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:500px;
+  height:700px;
+  background-color:rgba(255,255,255,0.6);
+  border-radius:10px;
+  border-style:solid; 
+}
+.hlogin
+{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.warning
+{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-style:solid;
+	border-color:red;
+	color:red;
+	background-color:rgba(255,255,255,0);
+	border-radius:20px;
+}
+.information{
+	margin:20px 20px 20px 20px;
+}

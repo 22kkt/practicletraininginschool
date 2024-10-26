@@ -1,0 +1,52 @@
+.content{
+  margin-top: 150px;
+  width: 700px;
+  border: 1px solid #dda61b;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+.content .title{
+  color: aqua;
+  margin-bottom: 50px;
+}
+.content .title1{
+  color: aquamarine;
+  margin-bottom: 20px;
+}
+.content .title2{
+  color: blueviolet;
+  margin-bottom: 20px;
+}
+.content h3{
+  margin-top: 20px;
+}
+.content p{
+  text-indent: 2em;
+  margin: 5px auto;
+}
+.last{
+  margin-bottom: 20px;
+}
+
+.left{
+  top: 200px;
+  width: 200px;
+  height: 300px;
+  left: 100px;
+  position: fixed;
+}
+.left img{
+  width: 200px;
+  height: 300px;
+}
+.right{
+  top: 200px;
+  width: 200px;
+  height: 300px;
+  right: 100px;
+  position: fixed;
+}
+.right img{
+  width: 200px;
+  height: 300px;
+}

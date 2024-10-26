@@ -1,0 +1,117 @@
+.pet{
+  margin: 50px auto;
+  background-color: aliceblue;
+}
+.pet h3{
+  font-size: 75px;
+}
+.pet ul{
+  display: flex;
+  margin-top: 10px;
+}
+.pet ul a{
+  margin-right: 6px;
+  display: block;
+  padding: 0 7px;
+  height: 20px;
+  line-height: 20px;
+}
+.pet ul a img{
+	width:160px;
+	height:180px;
+}
+.pet ul .active{
+  background-color: #00be9a;
+  color: #fff;
+}
+.pet .content{
+  display: flex;
+  justify-content: space-between;
+  height: 610px;
+}
+.pet .content ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.pet .content li{
+  position: relative;
+  padding: 10px 21px 0;
+  width: 242px;
+  height: 335px;
+  border: 2px solid #fff;
+  overflow: hidden;
+}
+.pet .content .pic{
+  width: 200px;
+  height: 180px;
+}
+.pet .content .info{
+  margin-top: 14px;
+  margin-bottom: 5px;
+  height: 80px;
+  line-height: 19px;
+  color: #000;
+}
+.pet .content li div .cover{
+  position: absolute;
+  left: 0;
+  bottom: -86px;
+  padding-top: 15px;
+  width: 242px;
+  height: 84px;
+  background-color: #00be9a;
+  text-align: center;
+  color: #fff;
+  transition: all 0.5s;
+}
+.pet .content .cover p:first-child{
+  font-size: 18px;
+}
+.pet .content .cover p:nth-child(2){
+  margin: 3px auto 6px;
+  width: 120px; 
+  height: 1px;
+  background-color: rgba(255,255,255,0.11);
+}
+.pet .content li:hover .cover{
+  bottom: 0;
+}
+.pet .content li:hover{
+  border: 2px solid #00be9a;
+}
+
+.dog{
+  color: #70c3ff;
+  border: 5px solid #70c3ff;
+  border-radius: 15px;
+}
+.cat{
+  color: #fd6a7f;
+  border: 5px solid #fd6a7f;
+  border-radius: 15px;
+}
+.bird{
+  color: #7f8ea0;
+  border: 5px solid #7f8ea0;
+  border-radius: 15px;
+}
+.rabbit{
+  color: #89d04f;
+  border: 5px solid #89d04f;
+  border-radius: 15px;
+}
+.dog h3{
+  color: #70c3ff;
+}
+.cat h3{
+  color: #fd6a7f;
+}
+.bird h3{
+  color: #7f8ea0;
+}
+.rabbit h3{
+  color: #89d04f;
+}
+body{
+  margin-top: 150px;
+}

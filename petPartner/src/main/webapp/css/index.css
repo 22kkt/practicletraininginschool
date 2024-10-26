@@ -1,0 +1,67 @@
+@media (max-width: 768px) {
+  .carousel .carousel-item {
+    height: 250px;
+  }
+}
+@media (min-width: 768px) {
+  .carousel .carousel-item {
+    height: 400px;
+  }
+}
+@media (min-width: 992px) {
+  .carousel .carousel-item {
+    height: 500px;
+  }
+}
+.carousel .carousel-item{
+  background-size: cover;
+  background-position: center 0;
+}
+.carousel .carousel-item:nth-child(1){
+  background-image: url('../image/banner1.jpg');
+}
+.carousel .carousel-item:nth-child(2){
+  background-image: url('../image/banner2.png');
+}
+.carousel .carousel-item:nth-child(3){
+  background-image: url('../image/banner3.jpg');
+}
+.carousel .carousel-item:nth-child(4){
+  background-image: url('../image/banner4.jpg');
+}
+
+.project{
+  margin-top: 60px;
+  text-align: center;
+}
+.project .row div {
+  margin-bottom: 10px;
+}
+.project .row div a {
+  display: block;
+  height: 200px;
+  border: 5px solid;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.project .row div:nth-child(1) a {
+  border-color: #70c3ff;
+  color: #70c3ff;
+}
+.project .row div:nth-child(2) a {
+  border-color: #fd6a7f;
+  color: #fd6a7f;
+}
+.project .row div:nth-child(3) a {
+  border-color: #7f8ea0;
+  color: #7f8ea0;
+}
+.project .row div:nth-child(4) a {
+  border-color: #89d04f;
+  color: #89d04f;
+}
+.project .content img{
+  height: 120px;
+  width: 150px;
+}
+

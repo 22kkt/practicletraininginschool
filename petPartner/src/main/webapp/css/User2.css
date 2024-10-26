@@ -1,0 +1,72 @@
+.bgimage{
+	height:50vh;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background:center;
+}
+.avatar{
+	width:180px;
+	height:180px;
+	border-style:solid;
+	background-color:rgba(255,255,255,0.5);
+	border-radius:50%;
+	border-color:white;
+	border-width:5px;	
+	   
+	   
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.avatar img{
+	margin:0;
+	width:180px;
+	height:180px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.nickname{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin-top:110px;
+	font-size:40px;
+}
+.nickname span{
+	color:white;
+}
+nav{
+	display:flex;
+	justify-content:center;
+	align-items:center;	
+	height:70px;
+	background-color:rgba(84,71,53,0.5);
+}
+.container-fluid  nav ul{
+	width:100%;
+	list-style-type:none;
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+    margin:0px 0px 0px 0px;	
+    padding:0px 0px 0px 0px;
+	
+}
+
+.container-fluid nav ul li a:hover{
+	background-color:aquamarine;
+}
+
+.container-fluid nav ul li a{
+	text-decoration:none;
+	color:black;
+	font-size:30px;
+	border-style:solid;
+	border-radius:10px;
+	background-color:yellow;
+}
+
